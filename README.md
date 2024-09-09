@@ -30,17 +30,17 @@ The dataset used is the **MovieLens dataset**, which consists of the following f
 We performed EDA to uncover key insights:
 
 ***Most Popular Movies***  
-![][image1]
+![][Movie_Recommendation_Engine\images\image1.png]
 
-***Top rated movies***![][image2]
+***Top rated movies***![][Movie_Recommendation_Engine\images\image2.png]
 
 ***Year-wise Movie Releases***  
-![][image3]
+![][Movie_Recommendation_Engine\images\image3.png]
 
 The number of movie releases increased up until 2015 and then started to decrease.
 
 ***Genre-wise Diversification***  
-![][image4]
+![][Movie_Recommendation_Engine\images\image4.png]
 
 A large number of movies in the dataset belong to the drama and comedy genres.
 
@@ -49,7 +49,7 @@ A large number of movies in the dataset belong to the drama and comedy genres.
 Three distinct methods are employed: **Content-Based Filtering (CBF)**, **Collaborative Filtering (CF)**, and **Singular Value Decomposition (SVD)**. Ultimately, a hybrid recommendation engine is developed, combining the outputs of all three techniques to determine the most suitable movie for the user.
 
 ***High level architecture***  
-**![][image5]**
+![][Movie_Recommendation_Engine\images\image5.png]
 
 ***Content-Based Filtering (CBF)***
 
@@ -102,7 +102,7 @@ The hybrid system combines SVD and CBF to provide:
 \- Top 10 movies with the most similar content/genres to what the user prefers.
 
 **Model Architecture**  
-![][image6]
+![][Movie_Recommendation_Engine\images\image6.png]
 
 **Future Improvements**
 
