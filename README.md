@@ -32,15 +32,15 @@ We performed EDA to uncover key insights:
 ***Most Popular Movies***  
 ![Popular movies](images/image1.png)
 
-***Top rated movies***![](images\image2.png)
+***Top rated movies***![](images/image2.png)
 
 ***Year-wise Movie Releases***  
-![](.\images\image3.png)
+![](images/image3.png)
 
 The number of movie releases increased up until 2015 and then started to decrease.
 
 ***Genre-wise Diversification***  
-![](.\images\image4.png)
+![](images/image4.png)
 
 A large number of movies in the dataset belong to the drama and comedy genres.
 
@@ -49,7 +49,7 @@ A large number of movies in the dataset belong to the drama and comedy genres.
 Three distinct methods are employed: **Content-Based Filtering (CBF)**, **Collaborative Filtering (CF)**, and **Singular Value Decomposition (SVD)**. Ultimately, a hybrid recommendation engine is developed, combining the outputs of all three techniques to determine the most suitable movie for the user.
 
 ***High level architecture***  
-![](.\images\image5.png)
+![](images/image5.png)
 
 ***Content-Based Filtering (CBF)***
 
@@ -102,7 +102,7 @@ The hybrid system combines SVD and CBF to provide:
 \- Top 10 movies with the most similar content/genres to what the user prefers.
 
 **Model Architecture**  
-![](.\images\image6.png)
+![](images/image6.png)
 
 **Future Improvements**
 
