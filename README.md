@@ -30,9 +30,9 @@ The dataset used is the **MovieLens dataset**, which consists of the following f
 We performed EDA to uncover key insights:
 
 ***Most Popular Movies***  
-![Popular movies](.\images\image1.png)
+![Popular movies](images/image1.png)
 
-***Top rated movies***![](.\images\image2.png)
+***Top rated movies***![](images\image2.png)
 
 ***Year-wise Movie Releases***  
 ![](.\images\image3.png)
